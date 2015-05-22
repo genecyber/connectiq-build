@@ -4,7 +4,8 @@
 
 ## I was tired of using Eclipse to build my ConnectIQ apps
 I decided to experiment a bit. 
-Naming the extensions of the .mc files to .cs fools the IDE into thinking the file is a C# file (would work with .java as well) See [what I mean here](example app layout/src/source/WatchApp.mc.cs) it hilights on github too. 
+~~Naming the extensions of the .mc files to .cs fools the IDE into thinking the file is a C# file (would work with .java as well) See [what I mean here](example app layout/src/source/WatchApp.mc.cs) it hilights on github too.~~
+I was able to locate the plugin (*C:\Users\{{your computer user}}\AppData\Local\Code\app-0.1.0\resources\app\plugins*) directory for Visual Studio Code and copy the C# plugin to create a new [Monkey plugin](plugins/vs.language.monkey) and add .mc and .md so now I have the beginings of native support without the need to rename.
 Next I wanted to build and deploy from within [Visual Studio Code](https://code.visualstudio.com/) so I went about looking for a way.
 The debugging section will serve my purposes nicely as it will allow execution of a nodejs script and node has nice io functions.
 
