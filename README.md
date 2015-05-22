@@ -8,7 +8,9 @@ Naming the extensions of the .mc files to .cs fools the IDE into thinking the fi
 Next I wanted to build and deploy from within [Visual Studio Code](https://code.visualstudio.com/) so I went about looking for a way.
 The debugging section will serve my purposes nicely as it will allow execution of a nodejs script and node has nice io functions.
 
-The following is a new project structure, a sample app, and 2 methods of building. a deploy to your device and a launch in simulator. 
+The following is a new project structure, a sample app, and 2 methods of building. 
+- Deploy to your device.
+- Launch in simulator. 
 
 ### Show and Tell
 ####*Viewing ConnectIQ files along side images*
