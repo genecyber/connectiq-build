@@ -4,7 +4,7 @@ using Toybox.Math as Math;
 using Toybox.Communications as Comm;
 using Toybox.Timer as Timer;
 
-class ArcWatchApp extends App.AppBase {
+class WatchApp extends App.AppBase {
 	hidden var view;
 	hidden var app;
 	var connected = false;
