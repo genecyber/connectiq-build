@@ -1,0 +1,19 @@
+{
+	"pluginId": "vs.language.monkeycode",
+	"activationEvents": ["textModel:monkey"],
+	"mainModule": "./monkeyMain",
+	"contributes": {
+		"language": [{
+			"id": "monkey",
+			"extensions": [ ".md", ".mc" ],
+			"aliases": [ "C#", "csharp" ]
+		}]
+	},
+	"scripts": {
+		"compile": "node ../../node_modules/gulp/bin/gulp.js --gulpfile ../gulpfile.js compile --dir vs.language.monkeyscript"
+	},
+	"_testing": "./tests/csharpTests",
+	"_bundling": [
+		{ "name": "./monkeyMain" }
+	]
+}

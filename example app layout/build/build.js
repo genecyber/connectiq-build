@@ -5,8 +5,8 @@ Builder.modes = {}
 
 //=-=-=-=-=-=-=CONFIG=-=-=-=-=-=-=
 	var defaultDevice = "vivoactive"		/* device type */
-	var sdkPath = "c:/dev/garmin/sdk"    	/* path to ConnectIQ sdk */
-	var defaultDeviceLocation = "K:/" 		/* directory your device can be located */
+	var sdkPath = "D:\development\connectiq-sdk-win-1.1.0"    	/* path to ConnectIQ sdk */
+	var defaultDeviceLocation = "K" 		/* directory your device can be located */
 	var verbose = true 					    /* log build steps to console */
 	var removeCsExtensions = true			/* changing file extensions to cs offers syntax hilighting in IDE's outside of eclipse */
 	
