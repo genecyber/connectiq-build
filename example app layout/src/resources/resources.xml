@@ -1,0 +1,7 @@
+<resources>
+    <string id="AppName">WatchApp</string>
+    <bitmap id="connected" filename="images/connected.png" />
+    <bitmap id="disconnected" filename="images/disconnected.png" />
+    <bitmap id="disconnectedBar" filename="images/disconnectedBar.png" />
+    <bitmap id="LauncherIcon" filename="images/launcher_icon" />
+</resources>

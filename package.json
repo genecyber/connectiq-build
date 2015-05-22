@@ -1,0 +1,25 @@
+{
+  "name": "connectiq-build",
+  "version": "0.0.1",
+  "description": "Connect IQ | Garmin Code Builder: Build script for building and deploying ConnectIQ apps from Visual Studio Code. Can be adapted for other IDE's",
+  "keywords": [
+    "garmin",
+    "wearable",
+    "connectiq",
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/genecyber/connectiq-build"
+  },
+  "homepage": "https://github.com/genecyber/connectiq-build/blob/master/README.md",
+  "author": "Shannon Code <Shannon.Null.Code@gmail.com>",
+  "dependencies": {
+    "fs-extra": "^0.18.3"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "scripts": {}
+}
