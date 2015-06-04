@@ -13,6 +13,8 @@ The following is a new project structure, a sample app, and 2 methods of buildin
 - Launch in simulator. 
 
 ### Show and Tell
+####*Feature Animation*
+<img src="./screenshots/anim.gif" width="750" />
 ####*Viewing ConnectIQ files along side images*
 <img src="./screenshots/img_md.png" width="750" />
 ####*Viewing ConnectIQ files along side javascript files*
@@ -32,6 +34,11 @@ The following is a new project structure, a sample app, and 2 methods of buildin
 
 
 # Instructions
+First off, drop the plugin into:
+```
+C:\Users\[YOUR USER]\AppData\Local\Code\app-0.1.0\resources\app\plugins\
+```
+
 The build.js file along with the package.json file needs to live in *["your project folder/build/"](example app layout/build)*
 
 ```

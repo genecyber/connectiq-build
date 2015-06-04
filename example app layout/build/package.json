@@ -15,7 +15,8 @@
   "homepage": "https://github.com/genecyber/connectiq-build/blob/master/README.md",
   "author": "Shannon Code <Shannon.Null.Code@gmail.com>",
   "dependencies": {
-    "fs-extra": "^0.18.3"
+    "fs-extra": "^0.18.3",
+    "fs-plus": "^2.8.1"
   },
   "main": "index",
   "engines": {
