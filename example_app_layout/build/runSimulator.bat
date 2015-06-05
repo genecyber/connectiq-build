@@ -1,0 +1,1 @@
+D:\development\connectiq-sdk-win-1.1.1\bin\simulator.exe

@@ -1,0 +1,5 @@
+<drawables>
+    <drawable-list id="black_background">
+        <shape type="rectangle" color="Gfx.COLOR_BLACK" x="0" y="0" width="fill" height="fill" />
+    </drawable-list>
+</drawables>

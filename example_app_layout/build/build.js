@@ -19,12 +19,14 @@ console.log = function () {
 
 
 //=-=-=-=-=-=-=CONFIG=-=-=-=-=-=-=
-Builder.config.defaultDevice = "vivoactive"		/* device type */
-Builder.config.sdkPath = 'D:\\development\\connectiq-sdk-win-1.1.1'   /* path to ConnectIQ sdk */
-Builder.config.javaLocation = 'C:\\Program Files (x86)\\Java\\jre1.8.0_40'
-Builder.config.defaultDeviceLocation = "K:\\" 		/* directory your device can be located */
-Builder.config.verbose = true 					    /* log build steps to console */	
-	
+Builder.config.defaultDevice = "vivoactive"									/* device type */
+Builder.config.sdkPath = 'D:\\development\\connectiq-sdk-win-1.1.1'   		/* path to ConnectIQ sdk */
+Builder.config.javaLocation = 'C:\\Program Files (x86)\\Java\\jre1.8.0_40'  
+Builder.config.defaultDeviceLocation = "K:\\" 								/* directory your device can be located */
+Builder.config.verbose = true 					    						/* log build steps to console */	
+Builder.config.removeBatchFiles = false										/* Remove batch files for building and launching */
+
+
 /* Enhance the simulator outputs! */
 
 Builder.config.echoSimulator = false			/* log simulator output to console */
@@ -65,7 +67,7 @@ Builder.build = function (command, cb) {
 	
 		prc.on('close', function (code) {
 			console.log('process exit code ' + code)				
-			fsp.removeSync(batchFile)
+			if (Builder.config.removeBatchFiles) { fsp.removeSync(batchFile) }
 			return cb()
 		})
 	})	
@@ -81,14 +83,14 @@ Builder.launchSimulator = function (cb) {
 		prc.on('close', function (code) {
 			console.log('process exit code ' + code)						
 		})
-		//fsp.removeSync(batchFile)
+		if (Builder.config.removeBatchFiles) { fsp.removeSync(batchFile) }
 		return cb()	
 	})
 }
 
 Builder.simulate = function (prg,cb) {
 	var batchFile = path.resolve(__dirname, 'simulate.bat')
-	fsp.writeFile(batchFile,'monkeydo '+prg,null,function(){
+	fsp.writeFile(batchFile,'monkeydo '+'"'+prg+'"',null,function(){
 		var spawn = require('child_process').spawn	
 		
 		var prc = spawn(batchFile)
@@ -105,7 +107,7 @@ Builder.simulate = function (prg,cb) {
 			console.log('process exit code ' + code)			
 		})
 		
-		//fsp.removeSync(batchFile)
+		if (Builder.config.removeBatchFiles) { fsp.removeSync(batchFile) }
 		return cb()			
 		
 	})
@@ -133,7 +135,6 @@ Builder.steps.copySourceToBuildSourceDirectory = function (cb) {
 Builder.steps.buildForDevice = function (device, cb) {
 	if (Builder.config.verbose) console.log("building for device")
 	Command.exec(Builder.config, function (cmd) {
-		//console.log("")
 		console.log("command")
 		console.log(cmd)
 		try {
@@ -195,12 +196,9 @@ function commonSteps(uniqueStep, parameters, cb) {
 			//init build
 			Builder.steps.buildForDevice(target, function () {
 				//deploy or simulate
-				uniqueStep(target, function () {
-					//cleanup
-					//Builder.steps.cleanUpBuildSourceDirectory(function(){
+				uniqueStep(target, function () {					
 					//go home we are done
 					return cb()
-					//})
 				})
 			})
 		})
@@ -208,8 +206,6 @@ function commonSteps(uniqueStep, parameters, cb) {
 }
 
 exports.Builder = Builder
-
-
 
 var arguments = process.argv.slice(2);
 

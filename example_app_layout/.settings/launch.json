@@ -28,7 +28,7 @@
 			// Workspace relative or absolute path to the program.
 			"program": "./build/build.js",
 			// Automatically stop program after launch.
-			"stopOnEntry": false,
+			"stopOnEntry": true,
 			// Command line arguments passed to the program.
 			"args": ["simulator"],
 			// Workspace relative or absolute path to the working directory of the program being debugged. Default is the current workspace.

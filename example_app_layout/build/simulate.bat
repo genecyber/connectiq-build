@@ -1,0 +1,1 @@
+monkeydo "c:\repo\connectiq-build\example_app_layout\build\outgoing\out.prg"

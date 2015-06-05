@@ -1,0 +1,285 @@
+Building
+Deploying to simulator
+removing source after compile
+copying source to build directory
+Copying
+building for device
+command
+ -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example app layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example app layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example app layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example app layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example app layout\build\incoming\source\WatchView.mc -d vivoactive
+
+c:\repo\connectiq-build\example app layout>java -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example app layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example app layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example app layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example app layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example app layout\build\incoming\source\WatchView.mc -d vivoactive 
+
+process exit code 102
+launching in simulator
+simulator started
+simulation started
+Complete
+
+c:\repo\connectiq-build\example app layout>monkeydo c:\repo\connectiq-build\example app layout\build\outgoing\out.prg 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+Shell Version 0.1.0
+Could not open file: c:\repo\connectiq-build\example Error: 2
+Connection Finished
+
+Closing shell and port 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+Shell Version 0.1.0
+
+Socket Error in packet header 0
+Connection Finished
+
+Closing shell and port 
+
+process exit code 0
+Building
+Deploying to simulator
+removing source after compile
+copying source to build directory
+Copying
+building for device
+command
+ -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example app layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example app layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example app layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example app layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example app layout\build\incoming\source\WatchView.mc -d vivoactive
+
+c:\repo\connectiq-build\example app layout>java -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example app layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example app layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example app layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example app layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example app layout\build\incoming\source\WatchView.mc -d vivoactive 
+
+process exit code 102
+launching in simulator
+simulator started
+simulation started
+Complete
+
+c:\repo\connectiq-build\example app layout>monkeydo c:\repo\connectiq-build\example app layout\build\outgoing\out.prg 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+Shell Version 0.1.0
+
+Could not open file: c:\repo\connectiq-build\example Error: 2
+Connection Finished
+
+Closing shell and port 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+Shell Version 0.1.0
+
+Socket Error in packet header 0
+Connection Finished
+
+Closing shell and port 
+
+process exit code 0
+process exit code 0
+Building
+Deploying to simulator
+removing source after compile
+copying source to build directory
+Copying
+building for device
+command
+ -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example app layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example app layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example app layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example app layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example app layout\build\incoming\source\WatchView.mc -d vivoactive
+
+c:\repo\connectiq-build\example app layout>java
+ -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example app layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example app layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example app layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example app layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example app layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example app layout\build\incoming\source\WatchView.mc -d vivoactive 
+
+process exit code 102
+launching in simulator
+simulator started
+simulation started
+Complete
+
+c:\repo\connectiq-build\example app layout>monkeydo "c:\repo\connectiq-build\example app layout\build\outgoing\out.prg" 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+
+Shell Version 0.1.0
+Could not open file: c:\repo\connectiq-build\example%20app%20layout\build\outgoing\out.prg Error: 2
+Connection Finished
+
+Closing shell and port 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+Shell Version 0.1.0
+
+17:03 Loaded Loading View
+17:03 Loaded Watch View
+
+17:03 Loaded Alert View
+17:03 Loaded Registration View
+
+17:03 Loaded Console View
+17:03 started
+
+17:03 Inside loading view loop
+
+17:03 Loaded Loading View
+
+17:03 IsNew false
+
+17:03 true
+17:03 generating uri for route /garmin/devices/1995980789
+17:03 getting json for: http://llr2-com-zmj3yrmy5gt8.runscope.net/garmin/devices/1995980789
+17:03 Inside loading view loop
+
+17:03 Inside loading view loop
+
+17:03 IsNew false
+
+17:03 false
+17:03 returning false 2
+
+17:03 IsNew false
+17:03 false
+17:03 returning false 2
+17:03 Inside loading view loop
+
+17:03 Inside loading view loop
+
+Complete
+
+Connection Finished
+
+Closing shell and port 
+
+process exit code 0
+process exit code 0
+Building
+Deploying to simulator
+removing source after compile
+copying source to build directory
+Copying
+building for device
+command
+ -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example_app_layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example_app_layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example_app_layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example_app_layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example_app_layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example_app_layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example_app_layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example_app_layout\build\incoming\source\WatchView.mc -d vivoactive
+
+c:\repo\connectiq-build\example_app_layout>java -cp "D:\development\connectiq-sdk-win-1.1.1\bin\monkeybrains.jar"; com.garmin.monkeybrains.Monkeybrains -a "D:\development\connectiq-sdk-win-1.1.1\bin\api.db" -u D:\development\connectiq-sdk-win-1.1.1\bin\devices.xml -o c:\repo\connectiq-build\example_app_layout\build\outgoing\out.prg -z c:\repo\connectiq-build\example_app_layout\build\incoming\resources\resources.xml;c:\repo\connectiq-build\example_app_layout\build\incoming\resources\strings.xml;c:\repo\connectiq-build\example_app_layout\build\incoming\resources\drawables\drawables.xml;c:\repo\connectiq-build\example_app_layout\build\incoming\resources\layouts\layout.xml -m c:\repo\connectiq-build\example_app_layout\build\incoming\manifest.xml -p D:\development\connectiq-sdk-win-1.1.1\bin\projectInfo.xml c:\repo\connectiq-build\example_app_layout\build\incoming\source\WatchApp.mc c:\repo\connectiq-build\example_app_layout\build\incoming\source\WatchView.mc -d vivoactive 
+
+process exit code 0
+launching in simulator
+simulator started
+simulation started
+Complete
+
+c:\repo\connectiq-build\example_app_layout>monkeydo "c:\repo\connectiq-build\example_app_layout\build\outgoing\out.prg" 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+Shell Version 0.1.0
+
+Copying file.... 2% complete
+
+Copying file.... 5% complete
+Copying file.... 7% complete
+
+Copying file.... 10% complete
+Copying file.... 13% complete
+
+Copying file.... 15% complete
+Copying file.... 18% complete
+Copying file.... 21% complete
+Copying file.... 23% complete
+Copying file.... 26% complete
+Copying file.... 29% complete
+Copying file.... 31% complete
+
+Copying file.... 34% complete
+Copying file.... 37% complete
+Copying file.... 39% complete
+Copying file.... 42% complete
+Copying file.... 44% complete
+Copying file.... 47% complete
+Copying file.... 50% complete
+Copying file.... 52% complete
+Copying file.... 55% complete
+Copying file.... 58% complete
+
+Copying file.... 60% complete
+Copying file.... 63% complete
+Copying file.... 66% complete
+Copying file.... 68% complete
+Copying file.... 71% complete
+Copying file.... 74% complete
+Copying file.... 76% complete
+Copying file.... 79% complete
+Copying file.... 82% complete
+Copying file.... 84% complete
+Copying file.... 87% complete
+Copying file.... 89% complete
+Copying file.... 92% complete
+Copying file.... 95% complete
+Copying file.... 97% complete
+Copying file.... 100% complete
+
+File pushed successfully
+Connection Finished
+
+Closing shell and port 
+
+Found Transport: tcp
+Connecting...
+Connecting to device...
+
+Device Version 0.1.0
+Device id 1 name "A garmin device"
+Shell Version 0.1.0
+
+Loaded
+
+Not connected
+
+Not connected
+
+Not connected
+
+Not connected
+
+Not connected
+
+Not connected
+
+Not connected
+
+Not connected
+
+Not connected
+
+Complete
+Connection Finished
+
+Closing shell and port 
+
+process exit code 0
+process exit code 0

@@ -1,0 +1,42 @@
+<!--
+The layout system works by taking each of the items listed in it
+and creating an object which extends Ui.Drawable and placing them
+in a list. Then inside a Ui.View object you can set a layout which
+tells the system each time onUpdate() is called, go through and
+draw each item in the list of drawables that make up the layout.
+
+What we'll want to do is create Ui.Drawable objects for each of
+the UI elements. I would create one for each of these:
+    - PhoneConnectionView
+    - CalorieCounterView
+    - LifeLineSignalView
+    - PedometerView (this is the smaller display in the bottom right)
+    - PedometerCircleView (this is the arc that draws around watch info)
+    - SecondsArcView
+    - WatchHandsView (you could probably combine these last two)
+    
+Right now there's not a way to include custom Ui.Drawable items in 
+a layout file. The work around is to add an item to the layout (a label
+for instance) and replace it in the list before calling setLayout();
+-->
+<layout id="MainLayout">
+    <drawable id="black_background" />
+    <!-- We'll be replacing this label with a PhoneConnectedView. -->
+    <label id="phoneView" />
+    <!-- We'll be replacing this label with a CalorieCounterView. -->
+    <label id="calorieView" />
+    <!-- We'll be replacing this label with a PedometerView. -->
+    <label id="pedometerView" />
+    <!-- We'll be replacing this label with a PedometerCircleView. -->
+    <label id="pedometerCircleView" />
+    <!-- We'll be replacing this label with a SecondsArcView. -->
+    <label id="secondsArcView" />
+    <!-- We'll be replacing this label with a WatchHandsView. -->
+    <label id="watchHandsView" />
+    
+    <!-- Draw the watch time/date info -->
+    <label id="hours" x="95" y="48" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+    <label id="colon" x="100" y="48" text=":" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_DK_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="minutes" x="105" y="48" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+    <label id="date" x="center" y="88" font="Gfx.FONT_SMALL" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+</layout>
